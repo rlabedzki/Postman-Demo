@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "603e9ce4-001d-4723-a58b-ebe0c72df01b",
+		"name": "Postman Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get User Lists Page 2",
+			"id": "02bdf3d1-13ea-448a-a691-bb6c6eafdb62",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{address}}/api/users?page=2",
+					"host": [
+						"{{address}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get user 2",
+			"id": "75dd0915-7c19-4b9f-a4d4-8d2f02ebad1d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{address}}/api/users/2"
+			},
+			"response": []
+		}
+	]
+}
