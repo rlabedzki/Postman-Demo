@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Folder",
+			"name": "folder 1",
 			"item": [
 				{
 					"name": "Get user 2",
@@ -20,37 +20,55 @@
 						"url": "{{address}}/api/users/2"
 					},
 					"response": []
+				},
+				{
+					"name": "Get User Lists Page 2",
+					"id": "02bdf3d1-13ea-448a-a691-bb6c6eafdb62",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/api/users?page=2",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "501000fa-8824-4440-8890-38487c3b2199"
 		},
 		{
-			"name": "Get User Lists Page 2",
-			"id": "02bdf3d1-13ea-448a-a691-bb6c6eafdb62",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "{{address}}/api/users?page=2",
-					"host": [
-						"{{address}}"
-					],
-					"path": [
-						"api",
-						"users"
-					],
-					"query": [
-						{
-							"key": "page",
-							"value": "2"
-						}
-					]
+			"name": "folder 2",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "b05086ae-ed6f-4a4b-b138-ade52e776fe6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
-			},
-			"response": []
+			],
+			"id": "39b7ccce-a237-40b3-8f10-4f4534308c3a"
 		}
 	]
 }
