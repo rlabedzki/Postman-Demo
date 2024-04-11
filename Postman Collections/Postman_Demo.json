@@ -6,6 +6,25 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "Get user 2",
+					"id": "75dd0915-7c19-4b9f-a4d4-8d2f02ebad1d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{address}}/api/users/2"
+					},
+					"response": []
+				}
+			],
+			"id": "501000fa-8824-4440-8890-38487c3b2199"
+		},
+		{
 			"name": "Get User Lists Page 2",
 			"id": "02bdf3d1-13ea-448a-a691-bb6c6eafdb62",
 			"protocolProfileBehavior": {
@@ -30,19 +49,6 @@
 						}
 					]
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get user 2",
-			"id": "75dd0915-7c19-4b9f-a4d4-8d2f02ebad1d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{address}}/api/users/2"
 			},
 			"response": []
 		}
